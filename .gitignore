@@ -1,0 +1,36 @@
+# Build outputs
+/deleter
+/deleter-*
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build/test artifacts
+/bin/
+/dist/
+/build/
+coverage.out
+*.coverprofile
+*.prof
+
+# Local toolchains and generated logs
+/.tools/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+/.codex
